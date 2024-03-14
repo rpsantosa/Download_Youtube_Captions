@@ -67,5 +67,6 @@ def download_video_and_transcript(youtube_url, output_path=DATA_YOUTUBE):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-            
-download_video_and_transcript(url)
+
+# USAGE
+# download_video_and_transcript(url)
